@@ -1,0 +1,73 @@
+.grid-container{
+    display: grid;
+    gap: 30px;
+}
+body{
+    background-color: rgb(70, 70, 226)
+}
+h1{
+    color: white;
+    font-size: 150%;
+}
+h2{
+    color: white;
+    font-size: 150%;
+    margin-left: 250px;
+}
+h3{
+    color: white;
+    font-size: 150%;
+}
+h4{
+    color: white;
+    font-size: 150%;
+}
+h5{
+    color: white;
+    font-size: 150%;
+}
+p{
+    color: white;
+    font-size: 250%;
+}
+.item1{
+    grid-column-start: 1;
+}
+.item2{
+    grid-column-start: 1;
+}
+.item3{
+    grid-column-start: 4;
+}
+.grid-container3{
+    display: grid;
+}
+.item4{
+    grid-column-start: 3;
+    grid-column-end: 2;
+}
+.item5{
+    grid-column-start: 3;
+    grid-column-end: 2;
+}
+.item6{
+    grid-column-start: 3;
+    text-align: center;
+}
+.item7{
+    grid-column-start: 3;
+    text-align: center;
+}
+.grid-container4{
+    display: grid;
+}
+.grid-container5{
+    display: grid;
+}
+#euaqui{
+    width: 30%;
+    height: 30%;
+    border-radius: 50%;
+}
+
+
